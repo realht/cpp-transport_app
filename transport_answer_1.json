@@ -1,0 +1,72 @@
+[
+    {
+        "curvature": 1.42963,
+        "request_id": 1,
+        "route_length": 5990,
+        "stop_count": 4,
+        "unique_stop_count": 3
+    },
+    {
+        "curvature": 1.30156,
+        "request_id": 2,
+        "route_length": 11570,
+        "stop_count": 5,
+        "unique_stop_count": 3
+    },
+    {
+        "buses": [
+            "297",
+            "635"
+        ],
+        "request_id": 3
+    },
+    {
+        "items": [
+            {
+                "stop_name": "Рынок",
+                "time": 6,
+                "type": "Wait"
+            },
+            {
+                "bus": "297",
+                "span_count": 2,
+                "time": 5.235,
+                "type": "Bus"
+            }
+        ],
+        "request_id": 4,
+        "total_time": 11.235
+    },
+    {
+        "items": [
+            {
+                "stop_name": "Рынок",
+                "time": 6,
+                "type": "Wait"
+            },
+            {
+                "bus": "297",
+                "span_count": 2,
+                "time": 5.235,
+                "type": "Bus"
+            },
+            {
+                "stop_name": "Водоканал",
+                "time": 6,
+                "type": "Wait"
+            },
+            {
+                "bus": "635",
+                "span_count": 1,
+                "time": 6.975,
+                "type": "Bus"
+            }
+        ],
+        "request_id": 5,
+        "total_time": 24.21
+    },
+    {
+        "map": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n  <polyline points=\"164.492,135.162 170,85.4419 147.56,97.7557 164.492,135.162\" fill=\"none\" stroke=\"green\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <polyline points=\"170,85.4419 147.56,97.7557 30,30 147.56,97.7557 170,85.4419\" fill=\"none\" stroke=\"rgb(255,160,0)\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"164.492\" y=\"135.162\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">297</text>\n  <text fill=\"green\" x=\"164.492\" y=\"135.162\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">297</text>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"170\" y=\"85.4419\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">635</text>\n  <text fill=\"rgb(255,160,0)\" x=\"170\" y=\"85.4419\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">635</text>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"30\" y=\"30\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">635</text>\n  <text fill=\"rgb(255,160,0)\" x=\"30\" y=\"30\" dx=\"7\" dy=\"15\" font-size=\"20\" font-family=\"Verdana\" font-weight=\"bold\">635</text>\n  <circle cx=\"147.56\" cy=\"97.7557\" r=\"5\" fill=\"white\"/>\n  <circle cx=\"30\" cy=\"30\" r=\"5\" fill=\"white\"/>\n  <circle cx=\"170\" cy=\"85.4419\" r=\"5\" fill=\"white\"/>\n  <circle cx=\"164.492\" cy=\"135.162\" r=\"5\" fill=\"white\"/>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"147.56\" y=\"97.7557\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Водоканал</text>\n  <text fill=\"black\" x=\"147.56\" y=\"97.7557\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Водоканал</text>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"30\" y=\"30\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Дачи</text>\n  <text fill=\"black\" x=\"30\" y=\"30\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Дачи</text>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"170\" y=\"85.4419\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Метро</text>\n  <text fill=\"black\" x=\"170\" y=\"85.4419\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Метро</text>\n  <text fill=\"rgba(255,255,255,0.85)\" stroke=\"rgba(255,255,255,0.85)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"164.492\" y=\"135.162\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Рынок</text>\n  <text fill=\"black\" x=\"164.492\" y=\"135.162\" dx=\"7\" dy=\"-3\" font-size=\"20\" font-family=\"Verdana\">Рынок</text>\n</svg>",
+        "request_id": 6
+    }
+]
